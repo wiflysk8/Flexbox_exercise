@@ -1,0 +1,125 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+
+}/* GLOBAL */
+body {
+  background-color: #ECFBFA;
+}
+
+nav ul {
+  background-image: url("./assets/gradient.jpg");
+  height: 200px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  height: 60px;
+}
+ h4 {
+   margin-bottom: 20px;
+ }
+nav h1 {
+  color: white;
+  text-transform: uppercase;
+}
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  height: 20px;
+}
+
+nav ul li a:hover {
+  text-decoration-line: underline;
+  color: bisque;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero article {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    width: 60%;
+    margin: 24px;
+    border: #020826 solid 3px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px black;
+    background-image: url("./assets/gradient.jpg");
+    }
+  
+  .hero article p {
+    padding-top: 14px;
+    text-align: justify;
+    font-weight: bold;
+    
+    
+  }
+  
+  .hero article img {
+    border-radius: 10px;
+  }
+
+  .spots {
+      color:red;
+  }
+
+  .images {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .images article {
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    width: 20%;
+    border: #020826 solid 3px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px black;
+    background-image: url("./assets/gradient.jpg");
+    margin-bottom: 100px;
+    
+  }
+  
+
+  
+  .images article img {
+    width: 80%;
+  }
+
+  .images article p {
+    text-decoration-style: wavy;
+  }
+
+
+.footerbackground{
+  display: flex;
+  align-items: center;
+  height: 400px;
+  background-image: url(./assets/gradient2.png);
+  background-position: center;
+  background-size: cover;
+ 
+}
+footer {
+  display:flex;
+  justify-content: space-around;
+  padding: 14px;
+}
+
+footer a {
+  color: rgb(255, 0, 0);
+}
